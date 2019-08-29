@@ -1,0 +1,131 @@
+body {
+    background-color: aqua;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  
+  #rules {
+    background-color: blue;
+    color: yellow;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    font-size: 24px;
+  }
+
+  #rulesText {
+    position: absolute;
+    left: 20%;
+    top: 19%;
+    right: 55%;
+    font-size: 22px;
+    display: none;
+    text-align: center;
+  }
+
+  .pressed {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  #letters {
+    text-align: center;
+    position: absolute;
+  }
+
+  #gameField {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+  }
+
+  #dynamic {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+  }
+
+  #generateWord {
+    position: absolute;
+    left: 56%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .word {
+    position: absolute;
+    left: 56%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    text-align: center;
+    right: -40%;
+  }
+
+  .enter {
+    position: absolute;
+    left: 56%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    text-align: center;
+    right: -121%;
+    left: 53%;
+  }
+
+  .turns {
+    position: absolute;
+    text-align: center;
+    left: 56%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    right: -121%;
+  }
+  
+  #category {
+    font-size: 27px;
+    position: absolute;
+    left: 20%;
+    top: 5%;
+  }
+
+  .category {
+    font-size: 25px;
+  }

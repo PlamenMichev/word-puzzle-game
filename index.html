@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Words Puzzle</title>
+</head>
+
+<body>
+    <div id="gameField">
+        <div id="letters">
+            <ul>
+                <button value="a">A</button>
+                <button value="b">B</button>
+                <button value="c">C</button>
+                <button value="d">D</button>
+                <button value="e">E</button>
+                <button value="f">F</button>
+                <button value="g">G</button>
+                <button value="h">H</button>
+                <button value="i">I</button>
+                <button value="j">J</button>
+                <button value="k">K</button>
+                <button value="l">L</button>
+                <button value="m">M</button>
+                <button value="n">N</button>
+                <button value="o">O</button>
+                <button value="p">P</button>
+                <button value="q">Q</button>
+                <button value="r">R</button>
+                <button value="s">S</button>
+                <button value="t">T</button>
+                <button value="u">U</button>
+                <button value="v">V</button>
+                <button value="w">W</button>
+                <button value="x">X</button>
+                <button value="y">Y</button>
+                <button value="z">Z</button>
+            </ul>
+        </div>
+
+        <button id="generateWord">Generate Word</button>
+    </div>
+
+    <div id="dynamic">
+    </div>
+
+    <p id="category">Choose a category:
+        <select id="select-category" class="category">
+            <option value="capitals">Capitals</option>
+            <option value="animals">Animals</option>
+        </select>
+    </p>
+
+    <button id="rules">
+        Rules
+    </button>
+
+    <p id="rulesText">
+            A word from the category you have chosen is generated and you see the first and the last letters of it.
+            You have 5 tries to guess it and if correct letter is guessed the game doesn't take you a try.
+            If you win or lose you can play again by pressing Generate Word button.
+            Good luck and have fun :)
+    </p>
+
+    <script src="./script.js"></script>
+    <script src="./words.js"></script>
+</body>
+
+</html>
